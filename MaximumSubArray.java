@@ -12,6 +12,10 @@ public class MaximumSubArray {
                 sum=0;
             }
         }
+        if(max<0){
+            return 0;
+        }
+        else{
         return max;
     }
     public static void main(String args[]){
