@@ -21,9 +21,10 @@ public class MaximumSubArray {
             }
         }
         for(int i=ansStart;i<=ansEnd;i++){
-            System.out.print(nums[i]+" ");
+            System.out.print(nums[i]+" "); //prints the subarray which results in maximum sum
 
         }
+        System.out.println();
         return max;
     }
     public static void main(String args[]){
