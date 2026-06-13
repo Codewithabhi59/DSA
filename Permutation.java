@@ -61,5 +61,9 @@ public class Permutation {
         }
 
         sc.close();
-    }
+    } 
+     //find the first adacent pair from right side where left is smaller than right
+      //if you dont find such a pair, reverse the whole array
+      //swap the left element in the pair with the smallest element greater than that to its right
+      //then reverse the sub array from the point of swap(after the left element in the pair) till the end
 }
