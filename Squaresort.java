@@ -35,3 +35,4 @@ public class Squaresort {
         }
     }
 }
+//you can also check in array is if it's full of negatives or full of positives or both partially to ease up calculation
